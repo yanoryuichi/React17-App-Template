@@ -33,4 +33,7 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    // open: { app: { name: 'chrome-dev' } },
+  },
 };
