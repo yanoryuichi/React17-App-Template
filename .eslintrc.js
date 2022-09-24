@@ -15,7 +15,8 @@ module.exports = {
   },
   ignorePatterns: ['/*.js', 'node_modules/'],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': 'warn',
+    'no-unused-vars': 'warn',
   },
   settings: {
     react: {
